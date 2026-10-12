@@ -1,0 +1,61 @@
+if  /////
+
+let age = 10
+if age >= 18 {
+  print("Your valid /(age)")
+}
+else{
+  print("Your not valid  \(age)")
+}
+
+
+
+if else///
+
+let age = 10
+if age >= 18 {
+  print("Your valid /(age)")
+}
+else if age == 10{
+  print("please enter valid one");
+}
+else{
+  print("Your not valid  \(age)")
+}
+
+
+
+for loop/////
+
+for i in 0...10{
+  print(i , terminator:" ")
+}
+
+for i int 0..<10{
+print(i)
+}
+
+
+for i in stride(from:1 , to:10 , by:2){
+  print(i , terminator:" ");
+}
+
+while///
+
+var i = 10
+
+while i<=5{
+print(i , terminator:" ")
+i+=1
+}
+
+do while///
+
+
+var i = 1 
+
+repeat {
+print(i , terminator:" ");
+  i+=2;
+  
+}while(i<=5)
