@@ -1,0 +1,25 @@
+
+
+
+var dict : [Int:Int] = [
+
+  1 : 10,
+  2 : 20,
+  3 : 30,
+  
+]
+
+print(dict)    // acces all element 
+
+print(dict[4] ?? 0)   // acces sectfic element
+
+Function///
+Property or method	Purpose
+.count	Number of key-value pairs
+.isEmpty	Checks whether the dictionary is empty
+dictionary[key]	Accesses or updates a value
+.updateValue(_:forKey:)	Adds or updates a value
+.removeValue(forKey:)	Removes a key-value pair
+.keys	Accesses the keys
+.values	Accesses the values
+.contains(where:)	Checks a condition on entries
