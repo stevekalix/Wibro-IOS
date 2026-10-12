@@ -1,0 +1,41 @@
+Array ///
+
+var arr : [Int] = [10,11,24,14,1]
+for number in arr{
+
+  if number == 10 {
+    print("Valid number /{number)")
+   
+  }
+  else{
+    print("Number not present there")
+  }
+}
+array function///
+Property or method	Purpose  ////
+
+.count	Number of elements
+.isEmpty	Checks whether the array is empty
+.append()	Adds an element
+.insert(_:at:)	Inserts at an index
+.remove(at:)	Removes an element
+.contains()	Checks whether an element exists
+.sort()	Sorts the array in place
+.reverse()	Reverses the array in place
+
+var arr : [Int] = [10,11,24,14,1]
+arr.sort()
+print(arr)
+arr.reverse()
+print(arr)
+arr.append(1000)
+print(arr)
+arr.insert(200 , at: 1)
+print(arr)
+
+
+var arr = ["a","b","c","d"]
+print(arr);
+for i in arr{
+  print(i , terminator:" ")
+}
