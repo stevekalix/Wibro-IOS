@@ -6,6 +6,8 @@ if age >= 18 {
 }
 else{
   print("Your not valid  \(age)")
+
+
 }
 
 
