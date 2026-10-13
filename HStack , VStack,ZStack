@@ -1,0 +1,19 @@
+struct LoginPageView : View{
+
+var body : some View{
+   VStack(alignment:.leading , spacing: 70) {
+      Text("Title").font(.title)
+      HStack {
+        Color.blue.ignoresSpaceArea()
+        Text("Left")
+        Spacer()
+        Text("Right")
+      }
+      ZStack {
+        Color.blue.opacity(0.1)
+        Text("Overlay")
+      }
+    }
+    .padding()
+}
+}
