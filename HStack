@@ -1,0 +1,44 @@
+struct Login : View{
+
+    @State private var email : String = ""
+    var body : some View{
+        VStack(spacing : 10){
+            HStack(spacing: 100 ){
+                VStack{
+                    Text("one")
+                    .frame(width : 300 , height : 100)
+                    .background(.Color.yellow)
+                   
+
+                }
+                .padding(.top : 0)
+
+                VStack{
+
+                    Text("one")
+                    .frame(width: 300 , height: 100)
+                    .background(.Color.red.opacity(0.6))
+
+                     Text("one")
+                    .frame(width: 300 , height: 100)
+                    .background(.Color.red.opacity(0.6))
+                    
+                      Text("one")
+                    .frame(width: 300 , height: 100)
+                    .background(.Color.red.opacity(0.6))
+
+                      Text("one")
+                    .frame(width: 300 , height: 100)
+                    .background(.Color.red.opacity(0.6))
+
+
+                      Text("one")
+                    .frame(width: 300 , height: 100)
+                    .background(.Color.red.opacity(0.6))
+                }
+            }
+        }
+        .background(.Color.gray)
+        .frame(maxHeight : .infinity ,maxWidth : .infinity)
+    }
+}
