@@ -1,0 +1,21 @@
+struct Login : View{
+
+    @State private var email : String = ""
+    var body : some View{
+        VStack(spacing : 40){
+           Text("Welcome Back")
+           .font(.largeTitle)
+           .fontWeight(.italic)
+
+            
+        TextField("Enter your email", text: $email)
+        .frame(width: 320, height: )
+        .background(Color.white.opacity(1))
+        .cornerRadius(2)
+
+      
+        }
+        .background(.Color.gray)
+        .frame(maxHeight : .infinity ,maxWidth : .infinity)
+    }
+}
