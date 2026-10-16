@@ -1,0 +1,12 @@
+struct Login : View {
+    var body : some View{
+        VStack(){
+            Text("Hello")
+            .multilineTextAlignment(.leading)
+            .foregroundColor(.white)
+            .font(.title)
+        }
+        .background(.black)
+        .frame(maxWidth : .infinity ,alignment : .leading , maxHeight : .infinity ) 
+    }
+}
