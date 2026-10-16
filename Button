@@ -1,0 +1,23 @@
+struct Login : View {
+    @State private var count = 0
+    var body : some View {
+       VStack(spacing : 40){       
+        Text("Count : "\(count))
+         .multilineTextAlignment(.leading)
+
+         if(count == 10) {
+            Text("Your are the Winner")
+            .bold().foregroundColor(.yellow)
+         }
+         else{
+            Text("Please Try Again")
+         }
+        Button("Click me"){
+            count+=1;
+        }
+        .frame(width : 150 , height : 40)
+       }
+       .background(.lightblue)
+       .frame(maxWidth : .infinity , maxHeight : .infinity)
+    }
+}
