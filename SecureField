@@ -1,0 +1,14 @@
+struct Login : View {
+    @State private var password = ""
+    var body : some View {
+
+
+       VStack{
+        Text("Password")
+        SecureField("Password",Text : $password)
+        .frame(width: 160)
+       }
+       .background(.lightblue)
+       .frame(maxWidth : .infinity , maxHeight : .infinity)
+    }
+}
